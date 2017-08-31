@@ -31,5 +31,6 @@ fdescribe('To test the animal adoption flow',function () {
         animal_page.selectAnimal(2);
         var confirm_page = animal_page.clickContinue();
         expect(confirm_page.getTitle()).toBe('Thank you');
+
         });
 });
