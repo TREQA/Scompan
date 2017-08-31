@@ -23,7 +23,7 @@ exports.config = {
  // protractor is called.
   
 
-specs: ['zoo_spec.js'],
+specs: ['.idea/test/*_spec.js'],
 
  
 
@@ -32,8 +32,8 @@ specs: ['zoo_spec.js'],
  
 
  jasmineNodeOpts: {
-  
+
   defaultTimeoutInterval: 30000
- 
+
  }
 };
